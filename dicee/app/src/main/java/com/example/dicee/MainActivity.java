@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 int rNumber = randomNumberGenerator.nextInt(6);
 
                 leftDice.setImageResource(diceArray[rNumber]);
+                rNumber = randomNumberGenerator.nextInt(6);
                 rightDice.setImageResource(diceArray[rNumber]);
             }
         });
